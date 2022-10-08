@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/sitemap': ^1.0.0
   accessible-astro-components: ^1.5.5
   astro: ^1.0.6
-  astro-compress: ^0.0.18
+  astro-compress: 0.0.19
   autoprefixer: ^10.4.8
   ftp-deploy: ^2.4.3
   postcss: ^8.4.16
@@ -25,7 +25,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.0
   accessible-astro-components: 1.5.5
   astro: 1.0.6_sass@1.54.4
-  astro-compress: 0.0.18
+  astro-compress: 0.0.19
   autoprefixer: 10.4.8_postcss@8.4.16
   ftp-deploy: 2.4.3
   postcss: 8.4.16
@@ -956,13 +956,14 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-compress/0.0.18:
-    resolution: {integrity: sha512-6AaT8vlJkXYyImIQ70+bCkPTPfgSfvw3T+S9AOlSv65GFf1pZBuhO5nRuCg2jtEVBw4Eo/T4qC9khYbd6cVsWA==}
+  /astro-compress/0.0.19:
+    resolution: {integrity: sha512-Hgv1wX43vOwzUNuqRm7hbCMUXoH2xF+kTjBR+6RqAbM6hjqIlB8aKEGOVdELj6BiwnMDLf1dl6C1TmYPPgDMAg==}
+    deprecated: Critical bug fixed in 1.0.3
     dependencies:
       csso: 5.0.5
       deepmerge-ts: 4.2.1
       fast-glob: 3.2.11
-      html-minifier-terser: 6.1.0
+      html-minifier-terser: 7.0.0
       sharp: 0.30.7
       svgo: 2.8.0
       terser: 5.14.2
@@ -1247,8 +1248,8 @@ packages:
     resolution: {integrity: sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg==}
     dev: true
 
-  /clean-css/5.3.1:
-    resolution: {integrity: sha512-lCr8OHhiWCTw4v8POJovCoh4T7I9U11yVsPjMWWnnMmp9ZowCxyad1Pathle/9HjaDp+fdQKjO9fQydE6RHTZg==}
+  /clean-css/5.2.0:
+    resolution: {integrity: sha512-2639sWGa43EMmG7fn8mdVuBSs6HuWaSor+ZPoFWzenBc6oN+td8YhTfghWXZ25G1NiiSvz8bOFBS7PdSbTiqEA==}
     engines: {node: '>= 10.0'}
     dependencies:
       source-map: 0.6.1
@@ -1325,9 +1326,9 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /commander/8.3.0:
-    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
-    engines: {node: '>= 12'}
+  /commander/9.4.1:
+    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==}
+    engines: {node: ^12.20.0 || >=14}
     dev: true
 
   /common-ancestor-path/1.0.1:
@@ -1605,6 +1606,11 @@ packages:
 
   /entities/2.2.0:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
+    dev: true
+
+  /entities/4.4.0:
+    resolution: {integrity: sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==}
+    engines: {node: '>=0.12'}
     dev: true
 
   /eol/0.9.1:
@@ -2034,7 +2040,7 @@ packages:
     dev: true
 
   /github-from-package/0.0.0:
-    resolution: {integrity: sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=}
+    resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
     dev: true
 
   /github-slugger/1.4.0:
@@ -2214,11 +2220,6 @@ packages:
       space-separated-tokens: 2.0.1
     dev: true
 
-  /he/1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
-    dev: true
-
   /html-entities/2.3.3:
     resolution: {integrity: sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==}
     dev: true
@@ -2227,15 +2228,15 @@ packages:
     resolution: {integrity: sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==}
     dev: true
 
-  /html-minifier-terser/6.1.0:
-    resolution: {integrity: sha512-YXxSlJBZTP7RS3tWnQw74ooKa6L9b9i9QYXY21eUEvhZ3u9XLfv6OnFsQq6RxkhHygsaUMvYsZRV5rU/OVNZxw==}
-    engines: {node: '>=12'}
+  /html-minifier-terser/7.0.0:
+    resolution: {integrity: sha512-Adqk0b/pWKIQiGvEAuzPKpBKNHiwblr3QSGS7TTr6v+xXKV9AI2k4vWW+6Oytt6Z5SeBnfvYypKOnz8r75pz3Q==}
+    engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
       camel-case: 4.1.2
-      clean-css: 5.3.1
-      commander: 8.3.0
-      he: 1.2.0
+      clean-css: 5.2.0
+      commander: 9.4.1
+      entities: 4.4.0
       param-case: 3.0.4
       relateurl: 0.2.7
       terser: 5.14.2
