@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.11.6
+  '@astrojs/mdx': 0.12.0
   '@astrojs/sitemap': ^1.0.0
   accessible-astro-components: ^1.5.5
   astro: ^1.0.6
@@ -21,7 +21,7 @@ dependencies:
   reading-time: 1.5.0
 
 devDependencies:
-  '@astrojs/mdx': 0.11.6_rollup@2.78.0
+  '@astrojs/mdx': 0.12.0_rollup@2.78.0
   '@astrojs/sitemap': 1.0.0
   accessible-astro-components: 1.5.5
   astro: 1.0.6_sass@1.54.4
@@ -98,8 +98,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.11.6_rollup@2.78.0:
-    resolution: {integrity: sha512-MEi8CZuz4vXn74/jCb0CMOAKEqd6nsLrShYfE+ddb1//14CwuaVGbXN7V6/zGj8ZvBhFk/darBbNpJBmzfbI6A==}
+  /@astrojs/mdx/0.12.0_rollup@2.78.0:
+    resolution: {integrity: sha512-KeX5YYla4KpiiDBVmbaYGqqt9QLVUj/Q2d3u+VRK3WnGI+lN9bVsJLid4wApU/kTA6iWlquIrbX2XmhUUF6viQ==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/prism': 1.0.2
