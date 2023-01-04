@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prettier": "prettier -w --plugin-search-dir=. ."
+    "format": "prettier --cache --write --plugin-search-dir=. ."
   },
   "devDependencies": {
     "@astrojs/mdx": "^0.14.0",
