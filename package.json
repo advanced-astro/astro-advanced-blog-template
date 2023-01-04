@@ -22,7 +22,6 @@
     "prettier": "^2.8.1",
     "prettier-plugin-astro": "^0.7.1",
     "rehype-external-links": "^2.0.1",
-    "rollup": "^2.78.0",
     "sass": "^1.54.4"
   },
   "dependencies": {
