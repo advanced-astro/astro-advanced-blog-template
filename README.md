@@ -24,8 +24,8 @@ pnpm create astro -- --template redwerkz/astro-advanced-blog-template
 
 ### Deploy
 
-[![Deploy on Netlify](https://netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/withastro/astro-advanced-blog)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgitlab.com%2Fwithastro%2Fastro-advanced-blog-template)
+[![Deploy on Netlify](https://netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/redwerkz/astro-advanced-blog-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/redwerkz/astro-advanced-blog-template)
 
 ## ✨ Features
 
