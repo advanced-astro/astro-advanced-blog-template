@@ -65,7 +65,7 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   ├── Header.astro
 │   │   ├── Logo.astro
 │   │   └── Nav.astro
-|   ├── data/
+│   ├── data/
 |   |   └── blog-posts/
 |   |       ├── hello-world.md
 |   |       └── markdown-test.md
