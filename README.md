@@ -67,21 +67,21 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   └── Nav.astro
 │   ├── data/
 │   │   └── blog-posts/
-|   |       ├── hello-world.md
-|   |       └── markdown-test.md
-|   ├── layouts/
-|   |   └── BaseLayout.astro
+│   |       ├── hello-world.md
+│   |       └── markdown-test.md
+│   ├── layouts/
+│   |   └── BaseLayout.astro
 │   ├── pages/
 │   |   ├── blog/
 │   |   |   ├── [slug].astro
-|   |   |   └── index.astro
+│   |   |   └── index.astro
 │   |   ├── about.astro
 │   |   └── index.astro
-|   ├── styles/
-|   |   ├── fonts.css
-|   |   └── global.css
-|   └── utils/
-|       └── getPostData.ts
+│   ├── styles/
+│   |   ├── fonts.css
+│   |   └── global.css
+│   └── utils/
+│       └── getPostData.ts
 ├── .gitignore
 ├── .npmrc
 ├── astro.config.mjs
