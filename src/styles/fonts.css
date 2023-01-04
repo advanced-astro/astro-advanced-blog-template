@@ -13,16 +13,17 @@
 
 /* space-grotesk-regular - latin */
 @font-face {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/space-grotesk-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url("/assets/fonts/space-grotesk-v12-latin-regular.woff2")
+    format("woff2"); /* Super Modern Browsers */
 }
 
 /* space-grotesk-700 - latin */
 @font-face {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
-  src: url('/assets/fonts/space-grotesk-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url("/assets/fonts/space-grotesk-v12-latin-700.woff2") format("woff2"); /* Super Modern Browsers */
 }
