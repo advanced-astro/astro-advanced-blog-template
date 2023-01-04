@@ -13,7 +13,7 @@ specifiers:
   prettier-plugin-astro: ^0.7.1
   reading-time: ^1.5.0
   rehype-external-links: ^2.0.1
-  sass: ^1.54.4
+  sass: ^1.57.1
 
 dependencies:
   reading-time: 1.5.0
