@@ -8,12 +8,7 @@ export default defineConfig({
   site: "https://astro-advanced-blog-template.netlify.app",
   integrations: [
     mdx(),
-    compress({
-      html: {
-        removeComments: true,
-      },
-      js: false,
-    }),
+    compress(),
     sitemap(),
   ],
   markdown: {
