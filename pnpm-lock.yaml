@@ -6,6 +6,7 @@ specifiers:
   accessible-astro-components: ^1.6.1
   astro: ^1.9.0
   astro-compress: ^1.1.24
+  astro-robots-txt: ^0.3.10
   autoprefixer: ^10.4.13
   postcss: ^8.4.20
   postcss-preset-env: ^7.8.0
@@ -13,23 +14,26 @@ specifiers:
   prettier-plugin-astro: ^0.7.1
   reading-time: ^1.5.0
   rehype-external-links: ^2.0.1
+  rollup: ^3.9.1
   sass: ^1.57.1
 
 dependencies:
   reading-time: 1.5.0
 
 devDependencies:
-  '@astrojs/mdx': 0.14.0_rollup@2.79.1
+  '@astrojs/mdx': 0.14.0_rollup@3.9.1
   '@astrojs/sitemap': 1.0.0
   accessible-astro-components: 1.6.1
   astro: 1.9.0_sass@1.57.1
   astro-compress: 1.1.24
+  astro-robots-txt: 0.3.10
   autoprefixer: 10.4.13_postcss@8.4.20
   postcss: 8.4.20
   postcss-preset-env: 7.8.3_postcss@8.4.20
   prettier: 2.8.1
   prettier-plugin-astro: 0.7.1
   rehype-external-links: 2.0.1
+  rollup: 3.9.1
   sass: 1.57.1
 
 packages:
@@ -95,14 +99,14 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.14.0_rollup@2.79.1:
+  /@astrojs/mdx/0.14.0_rollup@3.9.1:
     resolution: {integrity: sha512-lmNh/7CeQmdZ0OCbnDnoDxQTKWleFdlT5YkjsutGIOhabY0xgCcWwb1Rbs/9m4vvTdCkp9zsZdRzUKEPFPbcsA==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/markdown-remark': 1.2.0
       '@astrojs/prism': 1.0.2
       '@mdx-js/mdx': 2.2.1
-      '@mdx-js/rollup': 2.2.1_rollup@2.79.1
+      '@mdx-js/rollup': 2.2.1_rollup@3.9.1
       acorn: 8.8.1
       es-module-lexer: 0.10.5
       estree-util-visit: 1.2.0
@@ -664,14 +668,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup/2.2.1_rollup@2.79.1:
+  /@mdx-js/rollup/2.2.1_rollup@3.9.1:
     resolution: {integrity: sha512-wpGeK9iO7gPEIyC/ZTiggLY/MkEWDj5IWSsjlpkefgjb5RbmUukXU6/D2rHA+VAopxigS3NlaIL2ctpYBi4fmg==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.2.1
-      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
-      rollup: 2.79.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.9.1
+      rollup: 3.9.1
       source-map: 0.7.4
       vfile: 5.3.6
     transitivePeerDependencies:
@@ -731,7 +735,7 @@ packages:
       tsm: 2.3.0
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@2.79.1:
+  /@rollup/pluginutils/5.0.2_rollup@3.9.1:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -743,7 +747,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 2.79.1
+      rollup: 3.9.1
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -1001,6 +1005,14 @@ packages:
       sharp: 0.31.2
       svgo: 3.0.2
       terser: 5.16.1
+    dev: true
+
+  /astro-robots-txt/0.3.10:
+    resolution: {integrity: sha512-fVQOdiVFPgMJEILUFBpNsup3q/RBvYiiecQVyPeWo3Ss+CzjMCkbWBflbFr86+9tTkiX0q1dufNem03QnorJ/w==}
+    dependencies:
+      deepmerge: 4.2.2
+      valid-filename: 4.0.0
+      zod: 3.20.2
     dev: true
 
   /astro/1.9.0_sass@1.57.1:
@@ -1962,6 +1974,11 @@ packages:
     dependencies:
       node-domexception: 1.0.0
       web-streams-polyfill: 3.2.1
+    dev: true
+
+  /filename-reserved-regex/3.0.0:
+    resolution: {integrity: sha512-hn4cQfU6GOT/7cFHXBqeBg2TbrMBgdD0kcjLhvSQYYwm3s4B6cjvBfb7nBALJLAXqmU5xajSa7X2NnUud/VCdw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
   /files-pipeline/0.0.2:
@@ -4086,6 +4103,14 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /rollup/3.9.1:
+    resolution: {integrity: sha512-GswCYHXftN8ZKGVgQhTFUJB/NBXxrRGgO2NCy6E8s1rwEJ4Q9/VttNqcYfEvx4dTo4j58YqdC3OVztPzlKSX8w==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /run-parallel/1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
@@ -4628,6 +4653,13 @@ packages:
       diff: 5.1.0
       kleur: 4.1.5
       sade: 1.8.1
+    dev: true
+
+  /valid-filename/4.0.0:
+    resolution: {integrity: sha512-VEYTpTVPMgO799f2wI7zWf0x2C54bPX6NAfbZ2Z8kZn76p+3rEYCTYVYzMUcVSMvakxMQTriBf24s3+WeXJtEg==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      filename-reserved-regex: 3.0.0
     dev: true
 
   /vfile-location/4.0.1:
