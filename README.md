@@ -1,6 +1,6 @@
 # [Astro](https://astro.build) Advanced Blog Template
 
-![Astro](https://img.shields.io/badge/astro-1.0-blue) [![Netlify Status](https://api.netlify.com/api/v1/badges/acde8324-2040-411a-994d-516b6b2f63a8/deploy-status)](https://app.netlify.com/sites/astro-advanced-blog-template/deploys) ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=astro-advanced-blog-template) ![License](https://img.shields.io/badge/license-MIT-blue)
+![Astro](https://img.shields.io/badge/astro-1.9.0-blue) [![Netlify Status](https://api.netlify.com/api/v1/badges/acde8324-2040-411a-994d-516b6b2f63a8/deploy-status)](https://app.netlify.com/sites/astro-advanced-blog-template/deploys) ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=astro-advanced-blog-template) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## 👉 Check out the Live Demos at ✨ [Netlify](https://astro-advanced-blog-template.netlify.app/) or ✨ [Vercel](https://astro-advanced-blog-template.vercel.app/)
 
