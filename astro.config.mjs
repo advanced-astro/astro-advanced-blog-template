@@ -5,7 +5,6 @@ import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://astro-advanced-blog-template.netlify.app",
   integrations: [mdx(), compress(), robotsTxt(), sitemap()],
   markdown: {
     shikiConfig: {
@@ -20,4 +19,5 @@ export default defineConfig({
       ],
     ],
   },
+  site: "https://astro-advanced-blog-template.vercel.app",
 });
