@@ -11,7 +11,7 @@ specifiers:
   postcss: ^8.4.20
   postcss-preset-env: ^7.8.0
   prettier: ^2.8.1
-  prettier-plugin-astro: ^0.7.1
+  prettier-plugin-astro: ^0.8.0
   reading-time: ^1.5.0
   rehype-external-links: ^2.0.1
   rollup: ^3.9.1
@@ -31,7 +31,7 @@ devDependencies:
   postcss: 8.4.21
   postcss-preset-env: 7.8.3_postcss@8.4.21
   prettier: 2.8.3
-  prettier-plugin-astro: 0.7.2
+  prettier-plugin-astro: 0.8.0
   rehype-external-links: 2.0.1
   rollup: 3.10.1
   sass: 1.57.1
@@ -48,6 +48,10 @@ packages:
 
   /@astrojs/compiler/0.31.4:
     resolution: {integrity: sha512-6bBFeDTtPOn4jZaiD3p0f05MEGQL9pw2Zbfj546oFETNmjJFWO3nzHz6/m+P53calknCvyVzZ5YhoBLIvzn5iw==}
+    dev: true
+
+  /@astrojs/compiler/1.0.1:
+    resolution: {integrity: sha512-77aacobLKcL98NmhK3OBS5EHIrX9gs1ckB/vGSIdkVZuB7u51V4jh05I6W0tSvG7/86tALv6QtHTRZ8rLhFTbQ==}
     dev: true
 
   /@astrojs/language-server/0.28.3:
@@ -3877,6 +3881,16 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
     dependencies:
       '@astrojs/compiler': 0.31.4
+      prettier: 2.8.3
+      sass-formatter: 0.7.5
+      synckit: 0.8.4
+    dev: true
+
+  /prettier-plugin-astro/0.8.0:
+    resolution: {integrity: sha512-kt9wk33J7HvFGwFaHb8piwy4zbUmabC8Nu+qCw493jhe96YkpjscqGBPy4nJ9TPy9pd7+kEx1zM81rp+MIdrXg==}
+    engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
+    dependencies:
+      '@astrojs/compiler': 1.0.1
       prettier: 2.8.3
       sass-formatter: 0.7.5
       synckit: 0.8.4
