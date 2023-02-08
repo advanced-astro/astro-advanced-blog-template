@@ -12,7 +12,7 @@
     "format": "prettier --cache --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@astrojs/mdx": "^0.15.0",
+    "@astrojs/mdx": "^0.16.0",
     "@astrojs/sitemap": "^1.0.0",
     "accessible-astro-components": "^1.6.1",
     "astro": "^1.9.0",
