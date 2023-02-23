@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': ^0.16.0
+  '@astrojs/mdx': ^0.17.0
   '@astrojs/sitemap': ^1.0.0
   accessible-astro-components: ^1.6.1
   astro: ^1.9.0
@@ -21,7 +21,7 @@ dependencies:
   reading-time: 1.5.0
 
 devDependencies:
-  '@astrojs/mdx': 0.16.0_astro@1.9.2+rollup@3.10.1
+  '@astrojs/mdx': 0.17.2_astro@1.9.2+rollup@3.10.1
   '@astrojs/sitemap': 1.0.0
   accessible-astro-components: 1.6.2
   astro: 1.9.2_sass@1.57.1
@@ -126,16 +126,16 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.16.0_astro@1.9.2+rollup@3.10.1:
-    resolution: {integrity: sha512-HNk0FhNNthI7+pLmheJyPVU36dXE5l+9UwmmnrMV6COHNZIO2t+pnWnsushEDYZjpkYITDwnXKnQAtD8Mqj4xw==}
+  /@astrojs/mdx/0.17.2_astro@1.9.2+rollup@3.10.1:
+    resolution: {integrity: sha512-mol57cw1jJMcQgKMRGn7p6cewajq6JTNtqj5aAZgROWam/phVDSOCbXj/WU3O9+3qFnyKtpczoufQKwJTQltAw==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.0.1_astro@1.9.2
       '@astrojs/prism': 2.0.0
-      '@mdx-js/mdx': 2.2.1
-      '@mdx-js/rollup': 2.2.1_rollup@3.10.1
+      '@mdx-js/mdx': 2.3.0
+      '@mdx-js/rollup': 2.3.0_rollup@3.10.1
       acorn: 8.8.1
-      es-module-lexer: 0.10.5
+      es-module-lexer: 1.2.0
       estree-util-visit: 1.2.1
       github-slugger: 1.5.0
       gray-matter: 4.0.3
@@ -679,8 +679,8 @@ packages:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
     dev: true
 
-  /@mdx-js/mdx/2.2.1:
-    resolution: {integrity: sha512-hZ3ex7exYLJn6FfReq8yTvA6TE53uW9UHJQM9IlSauOuS55J9y8RtA7W+dzp6Yrzr00/U1sd7q+Wf61q6SfiTQ==}
+  /@mdx-js/mdx/2.3.0:
+    resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
     dependencies:
       '@types/estree-jsx': 1.0.0
       '@types/mdx': 2.0.3
@@ -703,12 +703,12 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup/2.2.1_rollup@3.10.1:
-    resolution: {integrity: sha512-wpGeK9iO7gPEIyC/ZTiggLY/MkEWDj5IWSsjlpkefgjb5RbmUukXU6/D2rHA+VAopxigS3NlaIL2ctpYBi4fmg==}
+  /@mdx-js/rollup/2.3.0_rollup@3.10.1:
+    resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
-      '@mdx-js/mdx': 2.2.1
+      '@mdx-js/mdx': 2.3.0
       '@rollup/pluginutils': 5.0.2_rollup@3.10.1
       rollup: 3.10.1
       source-map: 0.7.4
@@ -1667,12 +1667,12 @@ packages:
     engines: {node: '>=0.12'}
     dev: true
 
-  /es-module-lexer/0.10.5:
-    resolution: {integrity: sha512-+7IwY/kiGAacQfY+YBhKMvEmyAJnw5grTUgjG85Pe7vcUI/6b7pZjZG8nQ7+48YhzEAEqrEgD2dCz/JIK+AYvw==}
-    dev: true
-
   /es-module-lexer/1.1.0:
     resolution: {integrity: sha512-fJg+1tiyEeS8figV+fPcPpm8WqJEflG3yPU0NOm5xMvrNkuiy7HzX/Ljng4Y0hAoiw4/3hQTCFYw+ub8+a2pRA==}
+    dev: true
+
+  /es-module-lexer/1.2.0:
+    resolution: {integrity: sha512-2BMfqBDeVCcOlLaL1ZAfp+D868SczNpKArrTM3dhpd7dK/OVlogzY15qpUngt+LMTq5UC/csb9vVQAgupucSbA==}
     dev: true
 
   /es6-error/4.1.1:
