@@ -17,7 +17,7 @@
     "accessible-astro-components": "^1.6.1",
     "astro": "^1.9.0",
     "astro-compress": "^1.1.24",
-    "astro-robots-txt": "^0.3.10",
+    "astro-robots-txt": "^0.4.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
     "postcss-preset-env": "^7.8.0",
