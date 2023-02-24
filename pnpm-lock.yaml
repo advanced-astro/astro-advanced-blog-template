@@ -6,7 +6,7 @@ specifiers:
   accessible-astro-components: ^1.6.1
   astro: ^1.9.0
   astro-compress: ^1.1.24
-  astro-robots-txt: ^0.3.10
+  astro-robots-txt: ^0.4.0
   autoprefixer: ^10.4.13
   postcss: ^8.4.20
   postcss-preset-env: ^7.8.0
@@ -26,7 +26,7 @@ devDependencies:
   accessible-astro-components: 1.6.2
   astro: 1.9.2_sass@1.57.1
   astro-compress: 1.1.28
-  astro-robots-txt: 0.3.11
+  astro-robots-txt: 0.4.0
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
   postcss-preset-env: 7.8.3_postcss@8.4.21
@@ -757,7 +757,7 @@ packages:
   /@proload/core/0.3.3:
     resolution: {integrity: sha512-7dAFWsIK84C90AMl24+N/ProHKm4iw0akcnoKjRvbfHifJZBLhaDsDus1QJmhG12lXj4e/uB/8mB/0aduCW+NQ==}
     dependencies:
-      deepmerge: 4.2.2
+      deepmerge: 4.3.0
       escalade: 3.1.1
     dev: true
 
@@ -1046,12 +1046,14 @@ packages:
       terser: 5.16.1
     dev: true
 
-  /astro-robots-txt/0.3.11:
-    resolution: {integrity: sha512-UmIOU6zLusFSPBQjl8vozlfE1fkxLuXDhaT7ZOalsE8Ee4c/ua8OWexcx9Z4d2rZZ8/pywuL28LeG0Sjaq5m3w==}
+  /astro-robots-txt/0.4.0:
+    resolution: {integrity: sha512-tzZUnSXNC5gtSaLvF/LGC0A6cxt7lW5J0tuuQfM84/Vj2/dIdsvxHUp1JI1APhdpwP6TvH05aJnJFnGHn/pZlQ==}
     dependencies:
-      deepmerge: 4.2.2
+      '@proload/core': 0.3.3
+      '@proload/plugin-tsm': 0.2.1_@proload+core@0.3.3
+      deepmerge: 4.3.0
       valid-filename: 4.0.0
-      zod: 3.20.2
+      zod: 3.20.6
     dev: true
 
   /astro/1.9.2_sass@1.57.1:
@@ -1543,8 +1545,8 @@ packages:
     engines: {node: '>=12.4.0'}
     dev: true
 
-  /deepmerge/4.2.2:
-    resolution: {integrity: sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==}
+  /deepmerge/4.3.0:
+    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4923,6 +4925,10 @@ packages:
 
   /zod/3.20.2:
     resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
+    dev: true
+
+  /zod/3.20.6:
+    resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}
     dev: true
 
   /zwitch/2.0.4:
